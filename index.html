@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix play</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="input-container">
+        <label for="matrix-size">Matrix Size:</label>
+        <input name="matrix-size" id="matrix-size" type="number" min="2" value="2" max="7">
+        <button class="accept-button">Accept</button>
+    </section>
+    <main class="matrix-game">
+        <section class="tools-container">
+            <h3>Color: <span>Clear</span></h3>
+
+            <div class="color-container">
+                <div class="red-color color-tool"></div>
+                <div class="blue-color color-tool"></div>
+                <div class="green-color color-tool"></div>
+                <div class="orange-color color-tool"></div>
+            </div>
+            <div class="clear-tool">
+                <div class="white-color color-tool"></div>
+            </div>
+        </section>
+        <div class="board-container"></div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>

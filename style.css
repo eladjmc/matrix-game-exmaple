@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.input-container input {
+  text-align: center;
+  width: 70px;
+}
+.accept-button {
+  margin-left: 5px;
+  padding: 2px 4px;
+}
+
+.matrix-game {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-container{
+    position: absolute;
+    left: -150px;
+    width: 150px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.color-tool, .cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  transition: 0.2s linear opacity;
+  cursor: pointer;
+}
+
+.color-tool:hover {
+    opacity: .7;
+}
+.red-color {
+  background-color: red;
+}
+.blue-color {
+  background-color: blue;
+}
+.orange-color {
+  background-color: orange;
+}
+.green-color {
+  background-color: green;
+}
+
+.board-container {
+    display: flex;
+}
+
+h3 {
+    align-self: flex-start;
+}
